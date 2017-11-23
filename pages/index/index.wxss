@@ -1,0 +1,35 @@
+page ,.section{
+  height: 50%;
+background-color: greenyellow;
+}
+.flex-wrap{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  /* background-color: black; */
+  /* row 横轴对齐 column纵轴对齐 */
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+}
+.flex-item{
+  height: 200rpx;
+  width: 200rpx;
+  text-align: center;
+  line-height: 200rpx;
+}
+.flex-row{
+  display: flex;
+  flex-direction: column;
+}
+.bc_green{
+  background-color: #09ba07;
+  /* flex: 1; */
+}
+.bc_red{
+  background-color: #f76160;
+  /* flex: 0; */
+}
+.bc_blue{
+  background-color: #0faeff;
+  /* flex: 0; */
+}

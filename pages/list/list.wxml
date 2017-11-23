@@ -1,0 +1,30 @@
+<!-- <view>
+    <test>{{friends[0]}}</test>
+    <test>{{friends[1]}}</test>
+</view>
+<view>
+    <test>{{friends[0]}}</test>
+    <test>{{friends[1]}}</test>
+</view> -->
+<!-- <view>
+    占位指令
+    <block wx:for = "{{friends}}"
+           wx:for-index="index"
+           wx:key = ""wx:for-item="friend">
+        <view class="item">{{index+1}}.{{friend}}</view>
+        </block>
+</view> -->
+<view class="container">
+    <block wx:for="{{arrList}}" wx:key="index">
+        <view class="item">
+            <test>{{item}}</test>
+        </view>
+    </block>
+    <block wx:if="{{arrList.length==0}}">
+        <view class="item">
+            <text>
+                下拉下载加载更多
+            </text>
+        </view>
+    </block>
+</view>

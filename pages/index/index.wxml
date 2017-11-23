@@ -1,0 +1,24 @@
+<view class="section">
+  <!-- 数据绑定 MVVM
+  model data
+  View 界面
+  DOM 过时
+  VM 视图模型 -->
+  <view class="section-title">
+    <text>flex-direction:row</text>
+    <text>{{motto}}</text>
+  </view>
+  <view class="flex-wrap ">
+    <view class="flex-item bc_green">1</view>
+    <view class="flex-item bc_red">2</view>
+    <view class="flex-item bc_blue">3</view>
+  </view>
+  <view class="section-title">
+    <text>flex-direction:column</text>
+  </view>
+  <view class="flex-wrap flex-row">
+      <view class="flex-item bc_green">1</view>
+      <view class="flex-item bc_red">2</view>
+      <view class="flex-item bc_blue">3</view>
+    </view>
+</view>

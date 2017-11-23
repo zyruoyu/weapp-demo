@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff0",
+    "navigationBarTitleText": "邂逅相遇",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#999",
+    "selectedColor": "#2EBF76",
+    "borderStyle": "white",
+    "backgroundColor":"#f6f8f9",
+    "position":"bottom",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"pages/images/index.png",
+      "selectedIconPath":"pages/images/index_focus.png"
+    }, {
+      "pagePath":"pages/list/list",
+      "text":"晨曦",
+      "iconPath":"pages/images/discovery.png",
+      "selectedIconPath":"pages/images/discovery_focus.png"
+    }]
+  }
+}
